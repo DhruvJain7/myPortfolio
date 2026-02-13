@@ -1,5 +1,15 @@
 {
-  "name": "Akshay Saini Portfolio - VS Code Edition",
-  "description": "A developer-focused portfolio website mimicking the Visual Studio Code interface. Features a functional file explorer, tabs, syntax-highlighted content, and an interactive terminal.",
+  "name": "Dhruv Jain | AI Full Stack Portfolio",
+  "description": "An intelligent, VS Code-inspired portfolio showcasing AI integration, MERN stack expertise, and deep learning research. Features dynamic LLM bio generation and sub-second inference tracking.",
+  "author": "Dhruv Jain",
+  "tech_stack": [
+    "React 19",
+    "Vite",
+    "TypeScript",
+    "TailwindCSS",
+    "Groq LPU",
+    "EfficientNet"
+  ],
+  "education": "M.Tech in Artificial Intelligence @ NMIMS Mumbai",
   "requestFramePermissions": []
 }
