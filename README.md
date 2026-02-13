@@ -44,11 +44,17 @@ Don't use your mouse. It's 2026 already.
 To run this VS Code-style portfolio locally:
 
 ```bash
-git clone https://github.com/DhruvJain7/akshaymarch7.github.io.git
-cd akshaymarch7.github.io
-npm install --legacy-peer-deps  # Avoid peer dependency conflicts
-npm run dev                    # Spin up the local server
+# Clone your personalized repository
+git clone [https://github.com/DhruvJain7/myPortfolio.git](https://github.com/DhruvJain7/myPortfolio.git)
 
+# Enter the directory
+cd myPortfolio
+
+# Install dependencies (using legacy-peer-deps for React 19 compatibility)
+npm install --legacy-peer-deps
+
+# Start the development server
+npm run dev
 ```
 
 ---
