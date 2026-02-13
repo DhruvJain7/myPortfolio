@@ -1,9 +1,8 @@
 {
-  "name": "akshay-saini-portfolio---vs-code-edition",
+  "name": "dhruv-jain-ai-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://akshaysaini.in",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
