@@ -95,16 +95,14 @@ export const FILE_SYSTEM: FileNode[] = [
         type: FileType.FILE,
         language: "json",
         content: (
-        id: "package",
-        name: "package.json",
-        type: FileType.FILE,
-        language: "json",
-        content: (
           <div className="p-6 font-mono text-sm">
             <span className="text-vscode-text">{`{`}</span>
             <div className="pl-4">
               <span className="text-vscode-string">"name"</span>:{" "}
-              <span className="text-vscode-string">"dhruv-jain-ai-portfolio"</span>,
+              <span className="text-vscode-string">
+                "dhruv-jain-ai-portfolio"
+              </span>
+              ,
               <br />
               <span className="text-vscode-string">"version"</span>:{" "}
               <span className="text-vscode-string">"2026.1.0"</span>,<br />
@@ -117,12 +115,17 @@ export const FILE_SYSTEM: FileNode[] = [
               <br />
               <div className="pl-4">
                 <span className="text-vscode-string">"train"</span>:{" "}
-                <span className="text-vscode-string">"python train_model.py"</span>
+                <span className="text-vscode-string">
+                  "python train_model.py"
+                </span>
                 ,<br />
                 <span className="text-vscode-string">"deploy"</span>:{" "}
-                <span className="text-vscode-string">"gh-pages -d dist"</span>,<br />
+                <span className="text-vscode-string">"gh-pages -d dist"</span>,
+                <br />
                 <span className="text-vscode-string">"vibe"</span>:{" "}
-                <span className="text-vscode-string">"npm run learn-continuously"</span>
+                <span className="text-vscode-string">
+                  "npm run learn-continuously"
+                </span>
               </div>
               {`}`},<br />
               <span className="text-vscode-string">"dependencies"</span>: {`{`}
@@ -141,7 +144,6 @@ export const FILE_SYSTEM: FileNode[] = [
             </div>
             <span className="text-vscode-text">{`}`}</span>
           </div>
-        ),
         ),
       },
     ],
