@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     // UPDATED: This must match your GitHub repository name
-    base: "/myPortfolio/",
+    base: "/",
 
     server: {
       port: 3000,

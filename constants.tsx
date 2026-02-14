@@ -95,43 +95,53 @@ export const FILE_SYSTEM: FileNode[] = [
         type: FileType.FILE,
         language: "json",
         content: (
+        id: "package",
+        name: "package.json",
+        type: FileType.FILE,
+        language: "json",
+        content: (
           <div className="p-6 font-mono text-sm">
             <span className="text-vscode-text">{`{`}</span>
             <div className="pl-4">
               <span className="text-vscode-string">"name"</span>:{" "}
-              <span className="text-vscode-string">"namaste-akshay"</span>,
+              <span className="text-vscode-string">"dhruv-jain-ai-portfolio"</span>,
               <br />
               <span className="text-vscode-string">"version"</span>:{" "}
-              <span className="text-vscode-string">"1.0.0"</span>,<br />
+              <span className="text-vscode-string">"2026.1.0"</span>,<br />
               <span className="text-vscode-string">"description"</span>:{" "}
               <span className="text-vscode-string">
-                "Teacher. Engineer. YouTuber."
+                "AI Full Stack Engineer | M.Tech AI @ NMIMS Mumbai"
               </span>
               ,<br />
               <span className="text-vscode-string">"scripts"</span>: {`{`}
               <br />
               <div className="pl-4">
-                <span className="text-vscode-string">"teach"</span>:{" "}
-                <span className="text-vscode-string">"node namaste-js.js"</span>
+                <span className="text-vscode-string">"train"</span>:{" "}
+                <span className="text-vscode-string">"python train_model.py"</span>
                 ,<br />
-                <span className="text-vscode-string">"code"</span>:{" "}
-                <span className="text-vscode-string">"react start"</span>
+                <span className="text-vscode-string">"deploy"</span>:{" "}
+                <span className="text-vscode-string">"gh-pages -d dist"</span>,<br />
+                <span className="text-vscode-string">"vibe"</span>:{" "}
+                <span className="text-vscode-string">"npm run learn-continuously"</span>
               </div>
               {`}`},<br />
               <span className="text-vscode-string">"dependencies"</span>: {`{`}
               <br />
               <div className="pl-4">
                 <span className="text-vscode-string">"react"</span>:{" "}
-                <span className="text-vscode-string">"^18.2.0"</span>,<br />
-                <span className="text-vscode-string">"javascript"</span>:{" "}
+                <span className="text-vscode-string">"^19.0.0"</span>,<br />
+                <span className="text-vscode-string">"llama-3.3"</span>:{" "}
                 <span className="text-vscode-string">"latest"</span>,<br />
-                <span className="text-vscode-string">"passion"</span>:{" "}
-                <span className="text-vscode-string">"infinity"</span>
+                <span className="text-vscode-string">"tensorflow"</span>:{" "}
+                <span className="text-vscode-string">"active"</span>,<br />
+                <span className="text-vscode-string">"curiosity"</span>:{" "}
+                <span className="text-vscode-string">"unlimited"</span>
               </div>
               {`}`}
             </div>
             <span className="text-vscode-text">{`}`}</span>
           </div>
+        ),
         ),
       },
     ],
